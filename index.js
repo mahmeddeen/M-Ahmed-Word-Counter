@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 //Display a colourful message 
-console.log(chalk.bold.cyanB right("\n \t\t Welcome M Ahmed Gujjar"));
+console.log(chalk.bold.cyanBright("\n \t\t Welcome M Ahmed Gujjar"));
 console.log("-".repeat(50));
 // prompt the user to enter a sentence
 let answers = await inquirer.prompt([
